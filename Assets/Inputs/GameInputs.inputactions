@@ -1,0 +1,74 @@
+{
+    "name": "GameInputs",
+    "maps": [
+        {
+            "name": "GameActionMap",
+            "id": "320beb96-9f57-4ef3-9d32-273cde9a85f6",
+            "actions": [
+                {
+                    "name": "LMB",
+                    "type": "Button",
+                    "id": "34e4068d-7543-42fe-8475-648c45ec8562",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "WaveMarker",
+                    "type": "Button",
+                    "id": "bc1cf1e7-7e9e-43f2-9020-2147a09cfd7a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CameraMovement",
+                    "type": "Button",
+                    "id": "5be77f30-b4d3-4cf4-b24b-a251729b4960",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f749fe6c-9723-472e-8be9-431dca91ea84",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LMB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b7ed0489-dbce-4361-87ee-5e4c679a91c3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WaveMarker",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e797b065-9ddb-4f57-9c29-b6c76e4eb553",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
